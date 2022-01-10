@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./hashnode-brand-icon-opacity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* put image in the middle of the page*/
+.container-one {
+    margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0px, 10px;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.logo-image {
+  margin: 5% auto;
+  animation: circle 5s linear infinite;
+}
+
+.text-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.text-container h1 {
+    overflow: hidden;
+    border-right: hotpink solid 5px;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+.social-media{
+    display: grid;
+    grid-template-rows: 1fr; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:10px;
+}
+.social-media li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+}
