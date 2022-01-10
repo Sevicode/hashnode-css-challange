@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Luxurious Roman', cursive;
 
 }
 
@@ -43,6 +44,11 @@ body {
     margin: 0 auto;
     letter-spacing: .15em;
     animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    
+}
+.text-container h1 span {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .social-media{
