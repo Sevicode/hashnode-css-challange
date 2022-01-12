@@ -1,5 +1,7 @@
 # CSS Art Challenge Sponsored by Hashnode
 
+![](./img/hashnode-challenge-gif.gif)
+
 **Created by :**
 Sevda Amini-Uhde'
 
@@ -12,6 +14,11 @@ Follow me on:
 ![Medium Logo](https://img.icons8.com/color/24/000000/medium-logo.png)[@SevdaSevinu](https://medium.com/@SevdaSevinu)
 
 ![GitHub Logo](https://img.icons8.com/material-outlined/24/000000/github.png)[@Sevicode](https://github.com/Sevicode)
+
+
+## Link To The Demo
+[Demo](https://sevicode.github.io/hashnode-css-challange/)
+
 
 
 ## About css art challenge
