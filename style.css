@@ -35,14 +35,14 @@ body {
   animation: circle 6s linear infinite;
 }
 
-.branch {
+.stem {
   width: 5px;
   height: 100px;
   background-color: green;
   margin-bottom: -5%;
 }
 
-.branch-leafs {
+.stem-leaves {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
