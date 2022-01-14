@@ -15,11 +15,6 @@ body {
   justify-items: center;
   margin-top: 5%;
 }
-.middle-circle-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-}
 
 .upper-circle,
 .middle-circle-left,
@@ -29,6 +24,11 @@ body {
   height: 100px;
   border-radius: 30%;
   animation: flower-animation 5s linear infinite;
+}
+.middle-circle-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 .middle-circle-middle {
   transform: rotate(45deg);
@@ -97,7 +97,6 @@ body {
 #medium {
   transform: rotate(-25deg);
 }
-
 
 @keyframes circle {
   0% {
